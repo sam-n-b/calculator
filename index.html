@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="grid">
+    <script src="script.js"></script>
+     <input class="topInput" id = "display" type = "text" disabled="disabled">
+     <input class="bottomInput" id = "formula" type = "text" disabled="disabled">
+    <div class = "row">
+        <button type="button" onclick="getVal(this.innerHTML)">7</button>
+        <button type="button" onclick="getVal(this.innerHTML)">8</button>
+        <button type="button" onclick="getVal(this.innerHTML)">9</button>
+        <button type="button" onclick="getVal(this.innerHTML)">/</button>
+    </div>
+    <div class = "row">
+        <button type="button" onclick="getVal(this.innerHTML)">4</button>
+        <button type="button" onclick="getVal(this.innerHTML)">5</button>
+        <button type="button" onclick="getVal(this.innerHTML)">6</button>
+        <button type="button" onclick="getVal(this.innerHTML)">-</button>
+    </div>
+    <div class = "row">
+        <button type="button" onclick="getVal(this.innerHTML)">1</button>
+        <button type="button" onclick="getVal(this.innerHTML)">2</button>
+        <button type="button" onclick="getVal(this.innerHTML)">3</button>
+        <button type="button" onclick="getVal(this.innerHTML)">+</button>
+    </div>
+    <div class = "row">
+        <button type="button" onclick="getVal(this.innerHTML)">0</button>
+        <button type="button" onclick="getVal(this.innerHTML)">.</button>
+        <button type="button" onclick="getVal(this.innerHTML)">C</button>
+        <button type="button" onclick="getVal(this.innerHTML)">&times;</button>
+    </div>
+    <div class = "row rowbottom">
+        <button class="equalsButton" type="button" onclick="getVal(this.innerHTML)">=</button>
+    </div>
+    
+  </body>
+</html>

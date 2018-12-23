@@ -1,0 +1,78 @@
+* {font-family: 'Lato', sans-serif;}
+body, html {background-color: rgb(141, 165, 180);
+width: 100%}
+.row { display: flex; flex-wrap: wrap;
+    background-color:grey;
+    width: 300px;
+    height : 74px}
+.rowbottom {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px
+}
+.grid {
+    margin: 5px;
+    width: 300px;
+    //background-color:rgb(175, 44, 44);
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+  height: 70px;
+width: 70px;
+border-radius: 6px ;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    background-color: rgb(100, 99, 99);
+    color : white;
+    border: 1px solid rgb(182, 182, 182);
+
+}
+button:active {  //height: 70px;
+//width: 70px;
+border-radius: 6px ;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    background-color: rgb(167, 162, 162);
+    color : white;
+    border: 1px solid rgb(182, 182, 182);}
+    input {
+      width : 296px;
+      height: 40px;
+      font-size: 25px;
+      margin-left: auto;
+    margin-right: auto
+    }
+
+.equalsButton {
+   height: 70px;
+width: 250px;
+border-radius: 6px ;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    background-color: rgb(228, 132, 68);
+    color : white;
+    border: 1px solid rgb(182, 182, 182);}
+.bottomInput {
+      width : 292px;
+      height: 70px;
+      font-size: 25px;
+      margin-left: auto;
+    margin-right: auto;
+    margin-top : 0px;
+    border-bottom:    3px solid grey;
+    border-left:    3px solid grey;
+    border-right:    3px solid grey;
+    
+}
+.topInput {width : 292px;
+      height: 70px;
+      font-size: 25px;
+      margin-left: auto;
+    margin-right: auto;
+    margin-top : 50px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border: 3px solid grey;}
